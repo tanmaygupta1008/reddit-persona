@@ -67,8 +67,12 @@ Once created, you will see your client_id (under your app's name) and client_sec
 
 Create a file named .env in the root directory of this project (reddit-persona-generator/.env) and add the following lines, replacing the placeholders with your actual credentials:
 
-
+```bash
 REDDIT_CLIENT_ID=your_client_id
 REDDIT_CLIENT_SECRET=your_client_secret
 REDDIT_USER_AGENT=your_unique_user_agent_string
-Important: Your REDDIT_USER_AGENT should be unique and descriptive, following Reddit's API guidelines.
+
+```
+
+### Important: 
+Your REDDIT_USER_AGENT should be unique and descriptive, following Reddit's API guidelines.
