@@ -59,7 +59,7 @@ Scroll to the bottom and click "create another app".
 
 Choose "script" as the app type.
 
-Fill in a name (e.g., "persona"), description, and set redirect uri to http://localhost:8080.
+Fill in a name (e.g., "userPersona"), description, and set redirect uri to `http://localhost:8080`.
 
 Click "create app".
 
