@@ -76,3 +76,41 @@ REDDIT_USER_AGENT=your_unique_user_agent_string
 
 ### Important: 
 Your REDDIT_USER_AGENT should be unique and descriptive, following Reddit's API guidelines.
+
+
+
+### 6. Run the Program
+To run the script, first navigate into the src directory, then execute main.py passing the Reddit user profile URL as an argument.
+
+    `1. Directly run the program from root directory :`
+        pass user profile URL as a parameter : 
+        ```bash
+        python src/main.py https://www.reddit.com/user/kojied/
+        ```
+
+        You can also use other example profiles:
+
+        ```bash
+        python src/main.py https://www.reddit.com/user/Hungry-Move-6603/
+        ```
+
+
+    `2. Navigate to the src directory:`
+
+        ```bash
+        cd src
+        ```
+        Run the script with a Reddit user profile URL:
+
+        ```bash
+        python main.py https://www.reddit.com/user/kojied/
+        ```
+
+        You can also use other example profiles:
+
+        ```bash
+        python main.py https://www.reddit.com/user/Hungry-Move-6603/
+        ```
+
+### 7. Output
+The generated user persona will be saved as a text file in the output/ directory (e.g., output/user_persona_kojied.txt).
