@@ -61,9 +61,6 @@ class RedditScraper:
             user_agent=creds["user_agent"]
         )
         
-        print("--- PRAW Initialization Check ---")
-        print(f"Client ID used: {creds['client_id']}")
-        print(f"User Agent used: {creds['user_agent']}")
 
         # Optional: Test PRAW connection (remove after debugging)
         # try:
