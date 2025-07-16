@@ -82,8 +82,9 @@ Your REDDIT_USER_AGENT should be unique and descriptive, following Reddit's API 
 ### 6. Run the Program
 To run the script, first navigate into the src directory, then execute main.py passing the Reddit user profile URL as an argument.
 
-    `1. Directly run the program from root directory :`
+    1. Directly run the program from root directory :
         pass user profile URL as a parameter : 
+
         ```bash
         python src/main.py https://www.reddit.com/user/kojied/
         ```
